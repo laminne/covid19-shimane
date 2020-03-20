@@ -37,8 +37,8 @@ export default {
           title: `2. ${this.$t('感染症を疑う場合の対応')}`,
           body: [
             this.$t('各保健所にご相談ください'),
-            this.$t('「新型コロナウイルス感染症にかかる相談窓口について」'),
-            '<a href="http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html" target="_blank" rel="noopener">http://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html</a>'
+            this.$t('「新型コロナウイルス感染症に係る相談窓口の設置について」'),
+            '<a href="https://www.pref.hiroshima.lg.jp/soshiki/62/soudan-coronavirus.html" target="_blank" rel="noopener">https://www.pref.hiroshima.lg.jp/soshiki/62/soudan-coronavirus.html</a>'
           ].join('<br />')
         },
         {

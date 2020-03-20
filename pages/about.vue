@@ -15,29 +15,14 @@
         )
       }}<br />
       <br />
-      ・藤原出帆 (
-      <a href="//twitter.com/fujiwaraizuho" target="_blank">
-        {{ $t('@fujiwaraizuho') }}
+      <br />
+      ・laminne (
+      <a href="//github.com/laminne" target="_blank">
+        {{ $t('@laminne') }}
       </a>
       )
       <br />
-      ・Genbu (
-      <a href="//twitter.com/genbugraphy" target="_blank">
-        {{ $t('@genbugraphy') }}
-      </a>
-      )
-      <br />
-      ・0505Keitan (
-      <a href="//twitter.com/0505Keitan" target="_blank">
-        {{ $t('@0505Keitan') }}
-      </a>
-      )
-      <br />
-      ・y-chan
-      <br />
-      ・f0reach
-      <br />
-      ・maco
+
       <br /><br />
       複製・改変が許されたオープンソースライセンスで公開されている、
       <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
@@ -161,7 +146,7 @@
     <TextCard :title="$t('免責事項')">
       {{
         $t(
-          '当サイトに掲載されている情報の正確性については万全を期していますが、京都府やサイト運営者は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
+          '当サイトに掲載されている情報の正確性については万全を期していますが、広島県やサイト運営者は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
         )
       }}<br />
       <br />
@@ -178,9 +163,9 @@
       }}
     </TextCard>
     <TextCard :title="$t('お問い合わせ先')">
-      {{ $t('岡山県 新型コロナウイルス感染症 対策サイト 運営者代表') }}<br />
+      {{ $t('広島県 新型コロナウイルス感染症 非公式対策サイト 運営者代表') }}<br />
       {{ $t('メール') }}:
-      <a href="mail:contact@fujishan.jp">contact@fujishan.jp</a>
+      <a href="mail:s.todaylesson@gmail.com">s.todaylesson@gmail.com</a>
     </TextCard>
   </div>
 </template>

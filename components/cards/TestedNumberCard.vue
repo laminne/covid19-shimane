@@ -6,9 +6,9 @@
       :chart-id="'time-bar-chart-inspections'"
       :chart-data="contractsGraph"
       :date="inspectionsSummary.last_update"
-      comment="※ 3月13日のデータは京県府が1日ごとの実施値の推移を公開していないため、その日までの累計を入力しています。"
+      comment="※ 3月9日以前のデータは広島県が1日ごとの実施値の推移を公開していないため、その日までの累計を入力しています。"
       :unit="$t('件.tested')"
-      :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
+      :url="'https://www.pref.hiroshima.lg.jp/soshiki/50/korona-kensazisseki.html'"
     />
     <!-- 件.tested = 検査数 -->
   </v-col>

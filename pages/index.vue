@@ -56,7 +56,7 @@ export default {
       Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('京都府内の最新感染動向'),
+        title: this.$t('広島県内の最新感染動向'),
         date: Data.lastUpdate
       }
       // ニュースは今のところないのでコメントアウト
@@ -66,7 +66,7 @@ export default {
   },
   head() {
     return {
-      title: this.$t('京都府内の最新感染動向')
+      title: this.$t('広島県内の最新感染動向')
     }
   }
 }
