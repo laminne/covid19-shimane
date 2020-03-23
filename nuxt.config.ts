@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://covid19-okayama.netlify.com'
+        content: 'https://stopcovid19-hiroshima.netlify.com'
       },
       {
         hid: 'og:title',
@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://covid19-okayama.netlify.com/ogp.png'
+        content: 'https://stopcovid19-hiroshima.netlify.com/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -56,17 +56,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@fujiwaraizuho'
+        content: ''
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@fujiwaraizuho'
+        content: ''
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://covid19-okayama.netlify.com/ogp.jpg'
+        content: 'https://stopcovid19-hiroshima.netlify.com/ogp.jpg'
       }
     ],
     link: [
@@ -168,7 +168,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: 'UA-98485251-15'
+    id: ''
   },
   build: {
     postcss: {
