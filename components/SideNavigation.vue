@@ -12,7 +12,7 @@
         <div class="SideNavigation-Logo">
           <img
             src="/logo.svg"
-            :alt="$t('京都府')"
+            :alt="$t('広島県')"
             style="max-width: 115%; height: auto;"
           />
         </div>
@@ -70,7 +70,7 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('京都府内の最新感染動向'),
+          title: this.$t('広島県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -85,7 +85,7 @@ export default {
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('京都府民の皆様へ'),
+          title: this.$t('広島県民の皆様へ'),
           link: 'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#A'
         },
         {
@@ -94,7 +94,7 @@ export default {
           link: this.localePath('/worker'),
           divider: true
         },
-        // 知事からのメッセージが京都府では確認できていないのでコメントアウト
+        // 知事からのメッセージが広島県では確認できていないのでコメントアウト
         // {
         //  title: this.$t('知事からのメッセージ'),
         //  link: 'https://www.youtube.com/watch?v=Mm-xFX7Csf8'
@@ -104,7 +104,7 @@ export default {
           link: this.localePath('/about')
         },
         {
-          title: this.$t('京都府公式ホームページ'),
+          title: this.$t('広島県公式ホームページ'),
           link: 'https://www.pref.kyoto.jp/',
           divider: true
         }
