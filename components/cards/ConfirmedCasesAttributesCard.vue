@@ -7,7 +7,7 @@
       :chart-option="{}"
       :date="patients.last_update"
       :info="sumInfoOfPatients"
-      :url="'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#F'"
+      :url="'https://www.pref.hiroshima.lg.jp/soshiki/57/bukan-coronavirus.html'"
     />
   </v-col>
 </template>

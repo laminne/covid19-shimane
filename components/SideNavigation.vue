@@ -76,7 +76,7 @@ export default {
         {
           icon: 'covid',
           title: this.$t('感染予防と相談窓口'),
-          link: 'https://www.pref.okayama.jp/page/644784.html'
+          link: 'https://www.pref.hiroshima.lg.jp/soshiki/57/bukan-coronavirus.html'
         },
         {
           icon: 'parent',
@@ -86,7 +86,7 @@ export default {
         {
           icon: 'mdi-account-multiple',
           title: this.$t('広島県民の皆様へ'),
-          link: 'https://www.pref.kyoto.jp/kentai/news/novelcoronavirus.html#A'
+          link: 'https://www.pref.hiroshima.lg.jp/site/2019-ncov/cooperation.html'
         },
         {
           icon: 'mdi-domain',
@@ -105,7 +105,7 @@ export default {
         },
         {
           title: this.$t('広島県公式ホームページ'),
-          link: 'https://www.pref.kyoto.jp/',
+          link: 'https://www.pref.hiroshima.lg.jp/',
           divider: true
         }
       ]
